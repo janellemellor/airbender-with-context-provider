@@ -1,20 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Character component matches the Character snapshot 1`] = `
-<section>
-  <img
-    alt="Arnook"
-    src="https://vignette.wikia.nocookie.net/avatar/images/0/0c/Chief.png/revision/latest?cb=20140122221730"
-  />
-  <h3>
-    Arnook
-  </h3>
-  <p>
-    Northern Water Tribe
-  </p>
-</section>
-`;
-
 exports[`Characters matches a Characters snapshot 1`] = `
 <ul>
   <li
