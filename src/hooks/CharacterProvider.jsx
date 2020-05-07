@@ -29,3 +29,8 @@ export const useCharacters = () => {
   return characters;
 };
 
+export const useCharacter = ( index ) => {
+  const characters = useCharacters();
+  return characters[index];
+};
+
