@@ -24,7 +24,7 @@ CharacterProvider.propTypes = {
   children: PropTypes.node
 };
 
-export const useCharaters = () => {
+export const useCharacters = () => {
   const { characters } = useContext(CharacterContext);
   return characters;
 };

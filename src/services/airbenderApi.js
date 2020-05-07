@@ -5,6 +5,6 @@ export const fetchCharacters = () => {
       id: character._id, 
       name: character.name, 
       affiliation: character.affiliation, 
-      image: character.photourl
+      image: character.photoUrl
     })));
 };

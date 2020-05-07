@@ -1,6 +1,11 @@
 import React from 'react';
+import { CharacterProvider } from '../../hooks/CharacterProvider';
+import Characters from '../Characters/Characters';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <CharacterProvider >
+      <Characters />
+    </CharacterProvider > 
+  );
 }
-  
