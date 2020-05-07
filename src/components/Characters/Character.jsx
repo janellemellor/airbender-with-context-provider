@@ -11,7 +11,7 @@ const Character = ({ index }) => {
       <p>{affiliation}</p>    
     </section>
   );
-}
+};
 
 Character.propTypes = {
   index: PropTypes.number.isRequired,
