@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.css": "scss"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true
+    }
+}
